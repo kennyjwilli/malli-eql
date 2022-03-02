@@ -5,8 +5,7 @@ A small, utility library unifying [Malli](https://github.com/metosin/malli) and 
 ## Dependency Information 
 
 ```clojure
-  io.github.kennyjwilli/malli-eql {:git/url "https://github.com/kennyjwilli/malli-eql.git" 
-                                   :git/sha "438663e85da97fe124fea86b629aeecef1b4abc2"}
+dev.kwill/malli-eql {:mvn/version "0.1.3"}
 ```
 
 ## Usage

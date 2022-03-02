@@ -5,7 +5,7 @@
     [org.corfield.build :as bb]))
 
 (def lib 'dev.kwill/malli-eql)
-(def version (format "0.0.%s" (b/git-count-revs nil)))
+(def version (format "0.1.%s" (b/git-count-revs nil)))
 
 (defn jar "Build lib jar." [opts]
   (-> (assoc opts :lib lib :version version)
